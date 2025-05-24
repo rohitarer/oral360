@@ -1,7 +1,7 @@
 import requests
 import json
 
-API_KEY = "AIzaSyA_Jb9WwSzbQO8FcWDzfG_oR5yLzSnRd7g"  # 🔐 Secure in production
+API_KEY = ""  # 🔐 Secure in production
 GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-pro-vision:generateContent?key={API_KEY}"
 
 def get_gemini_diagnosis(tooth_number, base64_image):
